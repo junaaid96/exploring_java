@@ -21,7 +21,7 @@ class Mobile {
     }
 }
 
-public class staticKeyword {
+public class StaticKeyword {
     public static void main(String[] args) {
         Mobile m1 = new Mobile();
         m1.brandName = "Samsung";

@@ -34,7 +34,7 @@ class Calculator extends AbstractCalculator {
     }
 }
 
-public class calc {
+public class Calc {
     public static void main(String[] args) {
         Calculator c = new Calculator();
         System.out.println("Addition: " + c.add(10, 20));

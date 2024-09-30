@@ -1,4 +1,4 @@
-public class sc {
+public class SC {
     public static void main(String arg[]) {
         // int n = 1;
 
