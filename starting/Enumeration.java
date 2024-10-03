@@ -1,4 +1,3 @@
-
 class User {
     String username;
     private int pass;
@@ -49,6 +48,10 @@ public class Enumeration {
     public static void main(String arg[]) {
 
         Status statuses[] = Status.values();
+        // System.out.println(statuses.getClass().getSuperclass());
+
+        Status status1 = Status.Failed;
+        System.out.println(status1.getClass().getSuperclass());
 
         for (Status status : statuses) {
             // System.out.println(status + ": " + status.ordinal());
@@ -58,7 +61,7 @@ public class Enumeration {
         User registered_user1 = new User("junaid", 123456);
 
         // User login
-        User login_user1 = new User("junaid", 123456);
+        User login_user1 = new User("junaid", 1234567);
 
         Status login_status = registered_user1.equals(login_user1) ? Status.Success : Status.Failed;
 
